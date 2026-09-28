@@ -1,0 +1,72 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 620 100"
+  fill="none"
+>
+  <!-- Weather -->
+  <text
+    x="0"
+    y="70"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="68"
+    font-weight="700"
+    letter-spacing="-2"
+    fill="white"
+  >
+    Weather
+  </text>
+
+  <!-- Sun -->
+  <circle
+    cx="310"
+    cy="39"
+    r="20"
+    fill="#FFC107"
+  />
+
+  <!-- Sun rays -->
+  <g
+    stroke="#FFC107"
+    stroke-width="5"
+    stroke-linecap="round"
+  >
+    <path d="M310 8V17" />
+    <path d="M310 61V70" />
+    <path d="M279 39H288" />
+    <path d="M332 39H341" />
+    <path d="M288 17L294 23" />
+    <path d="M326 55L332 61" />
+    <path d="M332 17L326 23" />
+    <path d="M294 55L288 61" />
+  </g>
+
+  <!-- Cloud -->
+  <path
+    d="
+      M292 65
+      C292 53 301 44 313 44
+      C316 44 319 45 322 46
+      C326 37 335 31 345 31
+      C359 31 370 42 370 56
+      C381 56 390 64 390 75
+      C390 87 381 94 369 94
+      H313
+      C301 94 292 84 292 72
+      Z
+    "
+    fill="white"
+  />
+
+  <!-- Today -->
+  <text
+    x="402"
+    y="70"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="68"
+    font-weight="700"
+    letter-spacing="-2"
+    fill="white"
+  >
+    Today
+  </text>
+</svg>
